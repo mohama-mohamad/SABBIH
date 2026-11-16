@@ -10,86 +10,109 @@
   .en{direction:ltr;text-align:left;border-top:2px solid #eee;margin-top:40px;padding-top:20px}
   a{color:#1e4fa0}
   .muted{color:#666;font-size:.9em}
+  table{border-collapse:collapse;width:100%;margin:12px 0}
+  th,td{border:1px solid #ddd;padding:8px 10px;vertical-align:top}
+  th{background:#f3f6fc}
 </style>
 </head>
 <body>
 
 <h1>سياسة الخصوصية — تطبيق «سَبَّح»</h1>
-<p class="muted">تاريخ السريان: 12 يوليو 2026</p>
+<p class="muted">تاريخ السريان: 16 نوفمبر 2026</p>
 
-<p>نحترم خصوصيتك. توضّح هذه السياسة البيانات التي يجمعها تطبيق «سَبَّح» (عدّاد الأذكار) وكيفية استخدامها.</p>
+<p>نحترم خصوصيتك. توضّح هذه السياسة ما يخزّنه تطبيق «سَبَّح» (عدّاد الأذكار ومواقيت الصلاة) على جهازك. <b>لا يجمع التطبيق أي بيانات عنك ولا يرسل شيئًا خارج جهازك.</b></p>
 
-<h2>البيانات التي تبقى على جهازك</h2>
-<p>جميع أعداد التسبيح، والأهداف، والإعدادات، والأذكار المخصّصة تُخزَّن <b>محليًا على جهازك فقط</b> ولا تُرسَل إلى أي خادم.</p>
-
-<h2>البيانات التي نجمعها</h2>
-<p>نستخدم <b>Google Analytics for Firebase</b> لفهم كيفية استخدام التطبيق وتحسينه. يجمع ذلك:</p>
+<h2>1. البيانات التي تبقى على جهازك فقط</h2>
+<p>تُخزَّن <b>محليًا على جهازك ولا تُرسَل إلى أي خادم</b>:</p>
 <ul>
-  <li>أحداث الاستخدام والتفاعل داخل التطبيق (فتح التطبيق، الشاشات المعروضة).</li>
-  <li>مُعرّفات فنية مثل مُعرّف نسخة التطبيق (App Instance ID).</li>
+  <li>أعداد التسبيح اليومية، والأهداف اليومية والأسبوعية، والأوسمة، وسلسلة الأيام.</li>
+  <li>الأذكار التي تضيفها بنفسك.</li>
+  <li>الإعدادات: المظهر، والاهتزاز، وأوقات التذكير، والمدينة المختارة لمواقيت الصلاة وطريقة الحساب.</li>
 </ul>
-<p>لا نجمع اسمك، أو بريدك، أو رقم هاتفك، أو موقعك، أو جهات اتصالك، أو صورك، أو ملفاتك. ولا يتطلّب التطبيق إنشاء حساب أو تسجيل دخول.</p>
+<p>تُحذف كلها بإلغاء تثبيت التطبيق أو بمسح بياناته من إعدادات النظام.</p>
 
-<h2>كيف نستخدم البيانات</h2>
-<p>تُستخدم البيانات لأغراض <b>التحليلات وتحسين التطبيق</b> فقط. لا نبيع بياناتك، ولا نشاركها مع أطراف ثالثة لأغراضهم الخاصة (تعمل Google كمُعالِج بيانات نيابةً عنا).</p>
+<h2>2. النسخ الاحتياطي الذي تنشئه بنفسك</h2>
+<p>إن اخترتَ «نسخة احتياطية» يكتب التطبيق ملفًا (JSON) يحوي أعدادك وأذكارك المضافة وأهدافك في المكان الذي تحدّده أنت. لا يرسل التطبيق هذا الملف إلى أي جهة، وأنت المسؤول عن مكان حفظه. وعند «استعادة» يقرأ التطبيق الملف الذي تختاره فقط.</p>
 
-<h2>الأمان والاحتفاظ</h2>
-<p>تُنقل البيانات مشفّرة عبر HTTPS/TLS. تُحتفظ بيانات التحليلات وفق إعدادات Firebase (مدّة محدودة)، ويمكنك طلب حذف بياناتك عبر مراسلتنا.</p>
+<h2>3. الموقع</h2>
+<p><b>لا يطلب التطبيق إذن الموقع ولا يستخدم GPS.</b> تُحسب مواقيت الصلاة على الجهاز نفسه من مدينة تختارها أنت من قائمة مدمجة في التطبيق، دون اتصال بالإنترنت.</p>
 
-<h2>الأذونات</h2>
-<ul>
-  <li><b>الإشعارات:</b> للتذكير اليومي بالذكر.</li>
-  <li><b>العرض فوق التطبيقات الأخرى:</b> للودجت العائم.</li>
-  <li><b>الاهتزاز:</b> للتغذية الراجعة عند العدّ.</li>
-</ul>
+<h2>4. لا تحليلات ولا إعلانات ولا إنترنت</h2>
+<p><b>لا يطلب التطبيق إذن الإنترنت أصلًا</b>، فلا يستطيع إرسال أي بيانات إلى أي جهة. ولا يحتوي على مكتبات تحليلات أو إعلانات أو تتبّع، ولا يستخدم مُعرّف الإعلانات. ولا نجمع اسمك أو بريدك أو رقم هاتفك أو موقعك أو جهات اتصالك أو صورك أو ملفاتك. ولا يتطلب التطبيق حسابًا ولا تسجيل دخول.</p>
 
-<h2>الأطفال</h2>
+<h2>5. الأذونات ولماذا نطلبها</h2>
+<table>
+  <tr><th>الإذن</th><th>الغرض</th></tr>
+  <tr><td>الإشعارات</td><td>تذكيرات الأذكار (عامّ وصباح ومساء)، وتنبيه دخول وقت الصلاة. يُطلب عند تفعيل الميزة فقط.</td></tr>
+  <tr><td>العرض فوق التطبيقات الأخرى</td><td>العدّاد العائم. يُطلب عند تشغيله فقط.</td></tr>
+  <tr><td>الخدمات الأمامية</td><td>العدّ بأزرار الصوت، والعدّاد العائم، و«حراسة التنبيه» التي تُبقي التطبيق مستيقظًا بصمت ليصل تنبيه الصلاة في وقته. تُظهر إشعارًا دائمًا هادئًا ما دامت تعمل، وتتوقف بإيقاف الميزة.</td></tr>
+  <tr><td>إبقاء الجهاز مستيقظًا (Wake lock)</td><td>لدقائق قليلة قبل وقت الصلاة لإطلاق التنبيه في لحظته.</td></tr>
+  <tr><td>التشغيل عند الإقلاع</td><td>إعادة جدولة التذكيرات وتنبيهات الصلاة بعد إعادة تشغيل الهاتف.</td></tr>
+  <tr><td>الاهتزاز</td><td>تغذية راجعة عند العدّ.</td></tr>
+  <tr><td>حالة الشبكة</td><td>تطلبه مكتبة جدولة المهام (WorkManager) ضمن التطبيق؛ لا يرسل التطبيق بيانات عبر الشبكة.</td></tr>
+</table>
+<p>جميع هذه الميزات اختيارية ويمكنك إيقافها من الإعدادات.</p>
+
+<h2>6. الأطفال</h2>
 <p>التطبيق غير موجّه للأطفال دون سن 13، والفئة المستهدفة هي 13 عامًا فأكثر.</p>
 
-<h2>التغييرات</h2>
-<p>قد نُحدّث هذه السياسة، وسننشر أي تغييرات على هذه الصفحة.</p>
+<h2>7. حقوقك</h2>
+<p>بياناتك كلها على جهازك وتحت سيطرتك: يمكنك حذفها بمسح بيانات التطبيق أو بإلغاء تثبيته. وليس لدينا أي نسخة منها لنحذفها.</p>
 
-<h2>تواصل معنا</h2>
-<p>لأي استفسار أو طلب حذف بيانات: <a href="mailto:mmouhamad@hotmail.com">mmouhamad@hotmail.com</a><br>المطوّر: Mohamad Mohamad</p>
+<h2>8. التغييرات</h2>
+<p>قد نُحدّث هذه السياسة، وسننشر أي تغييرات على هذه الصفحة مع تاريخ السريان الجديد.</p>
+
+<h2>9. تواصل معنا</h2>
+<p>لأي استفسار: <a href="mailto:mmouhamad@hotmail.com">mmouhamad@hotmail.com</a><br>المطوّر: Mohamad Mohamad</p>
 
 <div class="en" lang="en" dir="ltr">
 <h1>Privacy Policy — “Sabbih” App</h1>
-<p class="muted">Effective date: July 12, 2026</p>
+<p class="muted">Effective date: November 16, 2026</p>
 
-<p>We respect your privacy. This policy explains what data the Sabbih (dhikr counter) app collects and how it is used.</p>
+<p>We respect your privacy. This policy explains what the Sabbih app (dhikr counter and prayer times) stores on your device. <b>The app does not collect any data about you and sends nothing off your device.</b></p>
 
-<h2>Data that stays on your device</h2>
-<p>All tasbih counts, goals, settings, and custom adhkar are stored <b>locally on your device only</b> and are never sent to any server.</p>
-
-<h2>Data we collect</h2>
-<p>We use <b>Google Analytics for Firebase</b> to understand app usage and improve it. This collects:</p>
+<h2>1. Data that stays on your device only</h2>
+<p>The following is stored <b>locally on your device and is never sent to any server</b>:</p>
 <ul>
-  <li>In-app activity/interaction events (app opens, screens viewed).</li>
-  <li>Technical identifiers such as the App Instance ID.</li>
+  <li>Your daily counts, daily and weekly goals, badges and streaks.</li>
+  <li>Custom adhkar you add.</li>
+  <li>Settings: theme, vibration, reminder times, the city you pick for prayer times, and the calculation method.</li>
 </ul>
-<p>We do not collect your name, email, phone number, location, contacts, photos, or files. The app requires no account or login.</p>
+<p>All of it is deleted when you uninstall the app or clear its data in system settings.</p>
 
-<h2>How we use data</h2>
-<p>Data is used solely for <b>analytics and app improvement</b>. We do not sell your data or share it with third parties for their own purposes (Google acts as our data processor).</p>
+<h2>2. Backups you create yourself</h2>
+<p>If you choose “Back up”, the app writes a JSON file with your counts, custom adhkar and goals to the location you pick. The app does not send this file anywhere; you decide where it is kept. When you “Restore”, the app reads only the file you select.</p>
 
-<h2>Security &amp; retention</h2>
-<p>Data is transmitted encrypted over HTTPS/TLS. Analytics data is retained per Firebase settings (a limited period). You may request deletion of your data by contacting us.</p>
+<h2>3. Location</h2>
+<p><b>The app does not request location permission and does not use GPS.</b> Prayer times are calculated on the device from a city you choose in a list built into the app, with no internet connection.</p>
 
-<h2>Permissions</h2>
-<ul>
-  <li><b>Notifications:</b> daily dhikr reminder.</li>
-  <li><b>Display over other apps:</b> the floating counter widget.</li>
-  <li><b>Vibrate:</b> haptic feedback while counting.</li>
-</ul>
+<h2>4. No analytics, no ads, no internet</h2>
+<p><b>The app does not request the internet permission at all</b>, so it cannot send data to anyone. It contains no analytics, advertising or tracking libraries and does not use the advertising ID. We do not collect your name, email, phone number, location, contacts, photos or files. The app needs no account or login.</p>
 
-<h2>Children</h2>
+<h2>5. Permissions and why we ask for them</h2>
+<table>
+  <tr><th>Permission</th><th>Purpose</th></tr>
+  <tr><td>Notifications</td><td>Dhikr reminders (general, morning, evening) and the alert when a prayer time begins. Requested only when you turn the feature on.</td></tr>
+  <tr><td>Display over other apps</td><td>The floating counter. Requested only when you turn it on.</td></tr>
+  <tr><td>Foreground services</td><td>Volume-key counting, the floating counter, and the “alert guard”, which keeps the app awake silently so the prayer alert arrives on time. It shows a quiet ongoing notification while it runs and stops when you turn the feature off.</td></tr>
+  <tr><td>Keep device awake (wake lock)</td><td>For a few minutes before a prayer time, to fire the alert at its moment.</td></tr>
+  <tr><td>Run at boot</td><td>To reschedule reminders and prayer alerts after the phone restarts.</td></tr>
+  <tr><td>Vibrate</td><td>Haptic feedback while counting.</td></tr>
+  <tr><td>Network state</td><td>Requested by the task-scheduling library (WorkManager) bundled in the app; the app sends no data over the network.</td></tr>
+</table>
+<p>All these features are optional and can be turned off in Settings.</p>
+
+<h2>6. Children</h2>
 <p>The app is not directed to children under 13; the target audience is 13 and over.</p>
 
-<h2>Changes</h2>
-<p>We may update this policy; changes will be posted on this page.</p>
+<h2>7. Your rights</h2>
+<p>All your data is on your device and under your control: delete it by clearing the app data or uninstalling. We hold no copy that we could delete.</p>
 
-<h2>Contact</h2>
-<p>For any question or data-deletion request: <a href="mailto:mmouhamad@hotmail.com">mmouhamad@hotmail.com</a><br>Developer: Mohamad Mohamad</p>
+<h2>8. Changes</h2>
+<p>We may update this policy; changes will be posted on this page with a new effective date.</p>
+
+<h2>9. Contact</h2>
+<p>For any question: <a href="mailto:mmouhamad@hotmail.com">mmouhamad@hotmail.com</a><br>Developer: Mohamad Mohamad</p>
 </div>
 
 </body>
